@@ -1,0 +1,7 @@
+FROM node:8-alpine
+WORKDIR /orderservice
+COPY package.json /orderservice
+RUN npm install
+COPY . /orderservice
+CMD ["npm","start"]
+EXPOSE 61551

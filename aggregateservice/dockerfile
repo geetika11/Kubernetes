@@ -1,0 +1,7 @@
+FROM node:8-alpine
+WORKDIR /aggregateservice
+COPY package.json /aggregateservice
+RUN npm install
+COPY . /aggregateservice
+CMD ["npm","start"]
+EXPOSE 61552

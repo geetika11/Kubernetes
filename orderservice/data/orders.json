@@ -1,0 +1,19 @@
+{
+    "orders": [
+      {
+        "orderId": 1,
+        "orderAmount": 43,
+        "orderDate": "31-Aug-2020"
+      },
+      {
+        "orderId": 2,
+        "orderAmount": 78,
+        "orderDate": "1-Sept-2020"
+      },
+      {
+        "orderId": 3,
+        "orderAmount": 789,
+        "orderDate": "12-Sept-2020"
+      }
+    ]      
+}

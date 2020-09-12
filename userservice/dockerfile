@@ -1,0 +1,7 @@
+FROM node:8-alpine
+WORKDIR /userservice
+COPY package.json /userservice
+RUN npm install
+COPY . /userservice
+CMD ["npm","start"]
+EXPOSE 61550
